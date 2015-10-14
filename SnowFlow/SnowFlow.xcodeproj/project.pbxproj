@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EF66AC1BB0F9BE001E6E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EF66AB1BB0F9BE001E6E09 /* Foundation.framework */; };
+		04EF66AE1BB0F9BE001E6E09 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EF66AD1BB0F9BE001E6E09 /* CoreGraphics.framework */; };
+		04EF66B01BB0F9BE001E6E09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EF66AF1BB0F9BE001E6E09 /* UIKit.framework */; };
+		04EF66B61BB0F9BE001E6E09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EF66B41BB0F9BE001E6E09 /* InfoPlist.strings */; };
+		04EF66B81BB0F9BE001E6E09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF66B71BB0F9BE001E6E09 /* main.m */; };
+		04EF66BC1BB0F9BE001E6E09 /* GWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF66BB1BB0F9BE001E6E09 /* GWAppDelegate.m */; };
+		04EF66BF1BB0F9BE001E6E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EF66BD1BB0F9BE001E6E09 /* Main.storyboard */; };
+		04EF66C21BB0F9BE001E6E09 /* GWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF66C11BB0F9BE001E6E09 /* GWViewController.m */; };
+		04EF66C41BB0F9BE001E6E09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EF66C31BB0F9BE001E6E09 /* Images.xcassets */; };
+		04EF66CB1BB0F9BE001E6E09 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EF66CA1BB0F9BE001E6E09 /* XCTest.framework */; };
+		04EF66CC1BB0F9BE001E6E09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EF66AB1BB0F9BE001E6E09 /* Foundation.framework */; };
+		04EF66CD1BB0F9BE001E6E09 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EF66AF1BB0F9BE001E6E09 /* UIKit.framework */; };
+		04EF66D51BB0F9BE001E6E09 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EF66D31BB0F9BE001E6E09 /* InfoPlist.strings */; };
+		04EF66D71BB0F9BE001E6E09 /* SnowFlowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EF66D61BB0F9BE001E6E09 /* SnowFlowTests.m */; };
+		04EF66E51BB0FACB001E6E09 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EF66E41BB0FACB001E6E09 /* back.png */; };
+		04EF66E71BB10361001E6E09 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EF66E61BB10361001E6E09 /* snow.png */; };
+		04EF66E91BB1038D001E6E09 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EF66E81BB1038D001E6E09 /* snow.png */; };
+		04EF66EB1BB116FA001E6E09 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EF66EA1BB116FA001E6E09 /* back.png */; };
+		04EF66ED1BB11949001E6E09 /* bird,png.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EF66EC1BB11949001E6E09 /* bird,png.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EF66CE1BB0F9BE001E6E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EF66A01BB0F9BE001E6E09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EF66A71BB0F9BE001E6E09;
+			remoteInfo = SnowFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04EF66A81BB0F9BE001E6E09 /* SnowFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF66AB1BB0F9BE001E6E09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04EF66AD1BB0F9BE001E6E09 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04EF66AF1BB0F9BE001E6E09 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04EF66B31BB0F9BE001E6E09 /* SnowFlow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnowFlow-Info.plist"; sourceTree = "<group>"; };
+		04EF66B51BB0F9BE001E6E09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EF66B71BB0F9BE001E6E09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EF66B91BB0F9BE001E6E09 /* SnowFlow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SnowFlow-Prefix.pch"; sourceTree = "<group>"; };
+		04EF66BA1BB0F9BE001E6E09 /* GWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWAppDelegate.h; sourceTree = "<group>"; };
+		04EF66BB1BB0F9BE001E6E09 /* GWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWAppDelegate.m; sourceTree = "<group>"; };
+		04EF66BE1BB0F9BE001E6E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EF66C01BB0F9BE001E6E09 /* GWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWViewController.h; sourceTree = "<group>"; };
+		04EF66C11BB0F9BE001E6E09 /* GWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWViewController.m; sourceTree = "<group>"; };
+		04EF66C31BB0F9BE001E6E09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04EF66C91BB0F9BE001E6E09 /* SnowFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EF66CA1BB0F9BE001E6E09 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04EF66D21BB0F9BE001E6E09 /* SnowFlowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SnowFlowTests-Info.plist"; sourceTree = "<group>"; };
+		04EF66D41BB0F9BE001E6E09 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EF66D61BB0F9BE001E6E09 /* SnowFlowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnowFlowTests.m; sourceTree = "<group>"; };
+		04EF66E41BB0FACB001E6E09 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = resoure/back.png; sourceTree = "<group>"; };
+		04EF66E61BB10361001E6E09 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snow.png; path = resoure/snow.png; sourceTree = "<group>"; };
+		04EF66E81BB1038D001E6E09 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snow.png; path = resoure/snow.png; sourceTree = "<group>"; };
+		04EF66EA1BB116FA001E6E09 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = resoure/back.png; sourceTree = "<group>"; };
+		04EF66EC1BB11949001E6E09 /* bird,png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bird,png.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EF66A51BB0F9BE001E6E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF66AE1BB0F9BE001E6E09 /* CoreGraphics.framework in Frameworks */,
+				04EF66B01BB0F9BE001E6E09 /* UIKit.framework in Frameworks */,
+				04EF66AC1BB0F9BE001E6E09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF66C61BB0F9BE001E6E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF66CB1BB0F9BE001E6E09 /* XCTest.framework in Frameworks */,
+				04EF66CD1BB0F9BE001E6E09 /* UIKit.framework in Frameworks */,
+				04EF66CC1BB0F9BE001E6E09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EF669F1BB0F9BE001E6E09 = {
+			isa = PBXGroup;
+			children = (
+				04EF66B11BB0F9BE001E6E09 /* SnowFlow */,
+				04EF66D01BB0F9BE001E6E09 /* SnowFlowTests */,
+				04EF66AA1BB0F9BE001E6E09 /* Frameworks */,
+				04EF66A91BB0F9BE001E6E09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EF66A91BB0F9BE001E6E09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EF66A81BB0F9BE001E6E09 /* SnowFlow.app */,
+				04EF66C91BB0F9BE001E6E09 /* SnowFlowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EF66AA1BB0F9BE001E6E09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EF66AB1BB0F9BE001E6E09 /* Foundation.framework */,
+				04EF66AD1BB0F9BE001E6E09 /* CoreGraphics.framework */,
+				04EF66AF1BB0F9BE001E6E09 /* UIKit.framework */,
+				04EF66CA1BB0F9BE001E6E09 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04EF66B11BB0F9BE001E6E09 /* SnowFlow */ = {
+			isa = PBXGroup;
+			children = (
+				04EF66E61BB10361001E6E09 /* snow.png */,
+				04EF66E41BB0FACB001E6E09 /* back.png */,
+				04EF66BA1BB0F9BE001E6E09 /* GWAppDelegate.h */,
+				04EF66BB1BB0F9BE001E6E09 /* GWAppDelegate.m */,
+				04EF66BD1BB0F9BE001E6E09 /* Main.storyboard */,
+				04EF66C01BB0F9BE001E6E09 /* GWViewController.h */,
+				04EF66C11BB0F9BE001E6E09 /* GWViewController.m */,
+				04EF66C31BB0F9BE001E6E09 /* Images.xcassets */,
+				04EF66EA1BB116FA001E6E09 /* back.png */,
+				04EF66B21BB0F9BE001E6E09 /* Supporting Files */,
+			);
+			path = SnowFlow;
+			sourceTree = "<group>";
+		};
+		04EF66B21BB0F9BE001E6E09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EF66EC1BB11949001E6E09 /* bird,png.png */,
+				04EF66E81BB1038D001E6E09 /* snow.png */,
+				04EF66B31BB0F9BE001E6E09 /* SnowFlow-Info.plist */,
+				04EF66B41BB0F9BE001E6E09 /* InfoPlist.strings */,
+				04EF66B71BB0F9BE001E6E09 /* main.m */,
+				04EF66B91BB0F9BE001E6E09 /* SnowFlow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EF66D01BB0F9BE001E6E09 /* SnowFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EF66D61BB0F9BE001E6E09 /* SnowFlowTests.m */,
+				04EF66D11BB0F9BE001E6E09 /* Supporting Files */,
+			);
+			path = SnowFlowTests;
+			sourceTree = "<group>";
+		};
+		04EF66D11BB0F9BE001E6E09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EF66D21BB0F9BE001E6E09 /* SnowFlowTests-Info.plist */,
+				04EF66D31BB0F9BE001E6E09 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EF66A71BB0F9BE001E6E09 /* SnowFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF66DA1BB0F9BE001E6E09 /* Build configuration list for PBXNativeTarget "SnowFlow" */;
+			buildPhases = (
+				04EF66A41BB0F9BE001E6E09 /* Sources */,
+				04EF66A51BB0F9BE001E6E09 /* Frameworks */,
+				04EF66A61BB0F9BE001E6E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowFlow;
+			productName = SnowFlow;
+			productReference = 04EF66A81BB0F9BE001E6E09 /* SnowFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EF66C81BB0F9BE001E6E09 /* SnowFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EF66DD1BB0F9BE001E6E09 /* Build configuration list for PBXNativeTarget "SnowFlowTests" */;
+			buildPhases = (
+				04EF66C51BB0F9BE001E6E09 /* Sources */,
+				04EF66C61BB0F9BE001E6E09 /* Frameworks */,
+				04EF66C71BB0F9BE001E6E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EF66CF1BB0F9BE001E6E09 /* PBXTargetDependency */,
+			);
+			name = SnowFlowTests;
+			productName = SnowFlowTests;
+			productReference = 04EF66C91BB0F9BE001E6E09 /* SnowFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EF66A01BB0F9BE001E6E09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Alibaba;
+				TargetAttributes = {
+					04EF66C81BB0F9BE001E6E09 = {
+						TestTargetID = 04EF66A71BB0F9BE001E6E09;
+					};
+				};
+			};
+			buildConfigurationList = 04EF66A31BB0F9BE001E6E09 /* Build configuration list for PBXProject "SnowFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EF669F1BB0F9BE001E6E09;
+			productRefGroup = 04EF66A91BB0F9BE001E6E09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EF66A71BB0F9BE001E6E09 /* SnowFlow */,
+				04EF66C81BB0F9BE001E6E09 /* SnowFlowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EF66A61BB0F9BE001E6E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF66C41BB0F9BE001E6E09 /* Images.xcassets in Resources */,
+				04EF66ED1BB11949001E6E09 /* bird,png.png in Resources */,
+				04EF66E51BB0FACB001E6E09 /* back.png in Resources */,
+				04EF66E91BB1038D001E6E09 /* snow.png in Resources */,
+				04EF66E71BB10361001E6E09 /* snow.png in Resources */,
+				04EF66EB1BB116FA001E6E09 /* back.png in Resources */,
+				04EF66B61BB0F9BE001E6E09 /* InfoPlist.strings in Resources */,
+				04EF66BF1BB0F9BE001E6E09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF66C71BB0F9BE001E6E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF66D51BB0F9BE001E6E09 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EF66A41BB0F9BE001E6E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF66BC1BB0F9BE001E6E09 /* GWAppDelegate.m in Sources */,
+				04EF66C21BB0F9BE001E6E09 /* GWViewController.m in Sources */,
+				04EF66B81BB0F9BE001E6E09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EF66C51BB0F9BE001E6E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EF66D71BB0F9BE001E6E09 /* SnowFlowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EF66CF1BB0F9BE001E6E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EF66A71BB0F9BE001E6E09 /* SnowFlow */;
+			targetProxy = 04EF66CE1BB0F9BE001E6E09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EF66B41BB0F9BE001E6E09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EF66B51BB0F9BE001E6E09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04EF66BD1BB0F9BE001E6E09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EF66BE1BB0F9BE001E6E09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04EF66D31BB0F9BE001E6E09 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EF66D41BB0F9BE001E6E09 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EF66D81BB0F9BE001E6E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04EF66D91BB0F9BE001E6E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EF66DB1BB0F9BE001E6E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnowFlow/SnowFlow-Prefix.pch";
+				INFOPLIST_FILE = "SnowFlow/SnowFlow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04EF66DC1BB0F9BE001E6E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnowFlow/SnowFlow-Prefix.pch";
+				INFOPLIST_FILE = "SnowFlow/SnowFlow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		04EF66DE1BB0F9BE001E6E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnowFlow.app/SnowFlow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnowFlow/SnowFlow-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SnowFlowTests/SnowFlowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		04EF66DF1BB0F9BE001E6E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SnowFlow.app/SnowFlow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SnowFlow/SnowFlow-Prefix.pch";
+				INFOPLIST_FILE = "SnowFlowTests/SnowFlowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EF66A31BB0F9BE001E6E09 /* Build configuration list for PBXProject "SnowFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF66D81BB0F9BE001E6E09 /* Debug */,
+				04EF66D91BB0F9BE001E6E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EF66DA1BB0F9BE001E6E09 /* Build configuration list for PBXNativeTarget "SnowFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF66DB1BB0F9BE001E6E09 /* Debug */,
+				04EF66DC1BB0F9BE001E6E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EF66DD1BB0F9BE001E6E09 /* Build configuration list for PBXNativeTarget "SnowFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EF66DE1BB0F9BE001E6E09 /* Debug */,
+				04EF66DF1BB0F9BE001E6E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EF66A01BB0F9BE001E6E09 /* Project object */;
+}
